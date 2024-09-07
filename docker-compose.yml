@@ -1,0 +1,8 @@
+services:
+  solarized:
+    build: .
+    volumes:
+      - solarized:/solarized
+
+volumes:
+  solarized:
